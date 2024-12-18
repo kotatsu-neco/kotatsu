@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {
+  background-color: #d2d200;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  /* background-image: url(images/bg.png);
+  background-repeat: repeat; */
+  /* height: 8rem; */
+}
+
+footer {
+  background-color: #b8b800;
+  height: 100px;
+}
+h1 {
+  color: #b50099;
+  /* background-color: #dddddd; */
+  text-align: center;
+  font-weight: 400;
+  height: 5rem;
+  padding: 2.5rem auto;
+}
+
+h2 {
+  color: #b50099;
+  background-color: #b8b800;
+  font-weight: 200;
+  font-size: 2rem;
+  padding-left: 3%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-width: 0 0 4px 0;
+  border-style: dotted;
+}
+
+article div {
+  width: 75vw;
+  padding-left: 5%;
+}
+
+ul {
+  list-style-image: url(images/squirrel32.png);
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  color: #4d4d4d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  /* margin: 0.5em; */
+  align-items: flex-start;
+}
+
+p {
+  color: #4d4d4d;
+  font-weight: 400;
+}
+
+img {
+  height: 200px;
+}
+img#neochi {
+  height: 200px;
+}
+
+img#zarigani {
+  height: 200px;
+}
+
+img#akubi {
+  height: 200px;
+}
+
+.test1 {
+  color: #b50099;
+}
+.test2 {
+  color: #00d223;
+}
+.test3 {
+  color: #2700b5;
+}
